@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+header{
+    min-height: 60px;
+    background-color: #1a272d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header .logo img{
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    margin-right: 20px;
+
+}
+
+nav a{
+    padding-right: 15px;
+    font-size: large;
+}
+
+nav a:hover{
+    color: pink;
+}
+
+@media(max-width: 500px){
+    header{
+        flex-direction: column;
+    }
+}
